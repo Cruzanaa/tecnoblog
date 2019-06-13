@@ -9,3 +9,50 @@ body {
   line-height: 1.27;
   color: #354052;
 }
+#CorpoSite{
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 67px;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-family: SourceSansPro;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.27;
+  color: #354052;
+}
+/*-- CONTEUDO DO SITE --*/
+.conteudo-site{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-cafe{
+  height: auto;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.26;
+  color: #6b3de4;
+}
+h2{
+  font-family: SourceSansPro;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #354052;
+}
+
+.texto-centro{
+  text-align: center;
+}
