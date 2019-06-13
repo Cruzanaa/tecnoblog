@@ -9,17 +9,14 @@ body {
   line-height: 1.27;
   color: #354052;
 }
-#CorpoSite{
+.CorpoSite{
   width: 70%;
-  height: 500px;
   margin: 0 auto;
   margin-top: 67px;
-  display: flex;
-  justify-content: center;
 }
 
 p{
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
   font-weight: 300;
   line-height: 1.27;
@@ -53,6 +50,49 @@ h2{
   color: #354052;
 }
 
-.texto-centro{
+.btn-estilo{
+  padding: 24px 89px;
+  border-radius: 4px;
+  background-color: #007ac2;
+}
+.btn-texto{
+  font-size: 30px;
+  color:#ffffff;
+}
+
+/*-- RODAPÉ --*/
+.rodape{
+  width: 100%;
+  height: 349px;
   text-align: center;
+  background-color: #eae8e8;
+}
+.rodape-estilo{
+  padding-top: 65px;
+}
+
+h3{
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.27;
+  color: #354052;
+}
+h4{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.27;
+  color: #354052;
+}
+.redes-sociais{
+  padding-top: 22px;
+}
+.redes-sociais, .fab{
+  font-size: 28px;
+  color:#354052;
+  padding: 12px;
+}
+
+.copyright{
+  font-size: 16px;
+  line-height: 25px;
 }
